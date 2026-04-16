@@ -1,0 +1,201 @@
+address_id,city,state_code,zip
+1,New Haven,CT,06002
+2,Newark,NJ,07306
+3,Greenwich,CT,06604
+4,Stamford,CT,06002
+5,Buffalo,NY,11201
+6,Newark,NJ,07102
+7,Bronx,NY,11215
+8,Parsippany,NJ,08817
+9,Queens,NY,10301
+10,Buffalo,NY,11215
+11,Norwalk,CT,06002
+12,Norwalk,CT,06010
+13,Norwalk,CT,06103
+14,Bronx,NY,10451
+15,Parsippany,NJ,07102
+16,Bridgeport,CT,06001
+17,Yonkers,NY,10001
+18,Trenton,NJ,07306
+19,Brooklyn,NY,10301
+20,Buffalo,NY,11101
+21,Parsippany,NJ,07601
+22,Queens,NY,10003
+23,Buffalo,NY,11215
+24,Greenwich,CT,06901
+25,New Haven,CT,06604
+26,Brooklyn,NY,11101
+27,Yonkers,NY,10001
+28,Brooklyn,NY,10003
+29,New Haven,CT,06002
+30,Trenton,NJ,07601
+31,Bridgeport,CT,06001
+32,Norwalk,CT,06002
+33,Greenwich,CT,06510
+34,Bridgeport,CT,06002
+35,Trenton,NJ,07030
+36,Newark,NJ,07306
+37,Westport,CT,06010
+38,Hartford,CT,06510
+39,Greenwich,CT,06103
+40,Queens,NY,10003
+41,Westport,CT,06001
+42,Bridgeport,CT,06902
+43,New York,NY,10301
+44,Jersey City,NJ,07001
+45,Staten Island,NY,10002
+46,Buffalo,NY,11101
+47,Yonkers,NY,10003
+48,Buffalo,NY,11101
+49,Stamford,CT,06510
+50,Westport,CT,06901
+51,Staten Island,NY,11201
+52,Bridgeport,CT,06901
+53,Norwalk,CT,06604
+54,Edison,NJ,07601
+55,Brooklyn,NY,11201
+56,Queens,NY,10001
+57,Greenwich,CT,06103
+58,Stamford,CT,06001
+59,Buffalo,NY,10001
+60,New York,NY,10001
+61,Newark,NJ,07102
+62,Parsippany,NJ,07601
+63,Staten Island,NY,10003
+64,Greenwich,CT,06902
+65,Yonkers,NY,11101
+66,Jersey City,NJ,07002
+67,Buffalo,NY,10451
+68,Trenton,NJ,07004
+69,Hackensack,NJ,07001
+70,Norwalk,CT,06002
+71,Bronx,NY,10301
+72,Brooklyn,NY,11201
+73,Staten Island,NY,11101
+74,Bronx,NY,10003
+75,Trenton,NJ,07102
+76,Bronx,NY,10002
+77,Buffalo,NY,10001
+78,Yonkers,NY,11201
+79,Bronx,NY,11101
+80,Jersey City,NJ,07004
+81,Brooklyn,NY,10451
+82,Bronx,NY,11215
+83,Hoboken,NJ,07004
+84,Norwalk,CT,06902
+85,Brooklyn,NY,11215
+86,New York,NY,10001
+87,Bridgeport,CT,06001
+88,Staten Island,NY,11101
+89,Westport,CT,06010
+90,Staten Island,NY,10002
+91,New York,NY,10002
+92,Westport,CT,06103
+93,Newark,NJ,07102
+94,Greenwich,CT,06001
+95,Hartford,CT,06901
+96,Greenwich,CT,06604
+97,Jersey City,NJ,08817
+98,Queens,NY,10451
+99,Buffalo,NY,11215
+100,Hoboken,NJ,07002
+101,Bronx,NY,10002
+102,Staten Island,NY,11201
+103,Bridgeport,CT,06010
+104,Newark,NJ,07102
+105,Hoboken,NJ,07030
+106,Hackensack,NJ,07306
+107,Westport,CT,06001
+108,Westport,CT,06510
+109,Hartford,CT,06010
+110,Newark,NJ,07002
+111,Greenwich,CT,06010
+112,Hoboken,NJ,07102
+113,Bridgeport,CT,06103
+114,Norwalk,CT,06510
+115,New Haven,CT,06510
+116,New York,NY,10451
+117,Newark,NJ,07001
+118,Hackensack,NJ,07030
+119,Bridgeport,CT,06010
+120,New Haven,CT,06901
+121,Hartford,CT,06002
+122,Buffalo,NY,10003
+123,Hartford,CT,06604
+124,Greenwich,CT,06010
+125,Jersey City,NJ,07001
+126,Hoboken,NJ,07001
+127,Jersey City,NJ,07102
+128,Hartford,CT,06604
+129,Westport,CT,06901
+130,Norwalk,CT,06010
+131,Yonkers,NY,10003
+132,Bronx,NY,10001
+133,Buffalo,NY,10301
+134,Hackensack,NJ,07102
+135,Jersey City,NJ,07002
+136,Hackensack,NJ,07001
+137,Jersey City,NJ,07102
+138,Hoboken,NJ,07306
+139,Brooklyn,NY,10001
+140,Stamford,CT,06901
+141,Hoboken,NJ,07002
+142,Hoboken,NJ,07004
+143,Westport,CT,06604
+144,New York,NY,11215
+145,Staten Island,NY,11215
+146,New York,NY,10451
+147,Parsippany,NJ,08817
+148,Edison,NJ,07002
+149,Edison,NJ,07102
+150,Newark,NJ,07004
+151,Staten Island,NY,11201
+152,Trenton,NJ,07002
+153,Bridgeport,CT,06604
+154,Westport,CT,06002
+155,Bridgeport,CT,06510
+156,New Haven,CT,06604
+157,Parsippany,NJ,07306
+158,Stamford,CT,06103
+159,Parsippany,NJ,07004
+160,Norwalk,CT,06010
+161,Greenwich,CT,06510
+162,Edison,NJ,07001
+163,Hoboken,NJ,07102
+164,Hackensack,NJ,08817
+165,Trenton,NJ,07601
+166,Stamford,CT,06902
+167,Stamford,CT,06002
+168,Edison,NJ,08817
+169,Yonkers,NY,11201
+170,Bridgeport,CT,06103
+171,Brooklyn,NY,10001
+172,Brooklyn,NY,11101
+173,Westport,CT,06002
+174,Trenton,NJ,07102
+175,Norwalk,CT,06901
+176,Trenton,NJ,07102
+177,Buffalo,NY,10001
+178,Yonkers,NY,10451
+179,Brooklyn,NY,11101
+180,Staten Island,NY,11201
+181,Bronx,NY,10003
+182,Parsippany,NJ,08817
+183,Edison,NJ,07004
+184,New Haven,CT,06010
+185,Westport,CT,06902
+186,Hoboken,NJ,07102
+187,Bridgeport,CT,06902
+188,Stamford,CT,06510
+189,Newark,NJ,07306
+190,Queens,NY,10301
+191,Edison,NJ,07002
+192,Brooklyn,NY,11201
+193,Parsippany,NJ,07030
+194,Stamford,CT,06002
+195,Trenton,NJ,08817
+196,New Haven,CT,06901
+197,Brooklyn,NY,10451
+198,Hackensack,NJ,07001
+199,New Haven,CT,06902
+200,Queens,NY,11215

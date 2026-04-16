@@ -1,0 +1,401 @@
+property_id,address_id,district_id,neighborhood_id,street_address,property_type,bedrooms,bathrooms,sqft,lot_size_acres,year_built
+1,48,5.0,16.0,842 Sloan Orchard Suite 517,apartment,3,2.5,2030,,1993
+2,176,,19.0,36851 Smith Plain,house,2,2.5,1620,,1980
+3,196,10.0,8.0,5496 Rodriguez Fort,apartment,0,1.0,427,,2021
+4,151,5.0,2.0,98593 Cynthia Mountain Suite 612,co-op,3,2.5,1972,,1939
+5,55,2.0,6.0,47113 Paul Land,co-op,0,1.0,785,,1960
+6,116,8.0,8.0,261 Gilbert Harbors Apt. 537,co-op,0,1.0,380,,1946
+7,68,10.0,7.0,51585 Raymond Field Apt. 713,apartment,2,1.0,1729,,1979
+8,39,3.0,,53293 Maria Plaza,condo,0,1.0,578,,2021
+9,32,5.0,9.0,335 Kristina Ranch,townhouse,4,3.5,2518,1.85,2006
+10,11,6.0,1.0,2284 Daniel Way,co-op,3,1.0,1946,,1958
+11,173,10.0,,05395 Grant Center,house,3,3.0,2430,0.09,1997
+12,163,2.0,14.0,681 Thomas Tunnel,townhouse,5,3.5,3675,0.59,2005
+13,106,5.0,13.0,917 Sonia Cape Suite 700,apartment,2,1.5,1014,,1992
+14,65,7.0,1.0,6177 Rachel Islands Apt. 124,co-op,0,1.0,532,,1940
+15,133,8.0,2.0,9847 Garcia Squares Apt. 836,co-op,3,1.0,1896,,1932
+16,32,,8.0,65766 Larry Island Suite 527,townhouse,4,1.5,2424,0.9,2012
+17,119,3.0,10.0,11615 Angela Radial,townhouse,4,1.0,2428,0.23,1964
+18,63,3.0,20.0,165 Parrish Stravenue Apt. 494,co-op,2,2.5,1650,,1950
+19,107,9.0,1.0,98327 Melanie Keys Suite 149,co-op,1,1.5,621,,1969
+20,115,6.0,18.0,8998 Chelsea Shoals,apartment,2,2.5,1987,,1969
+21,147,7.0,,24455 Howard Divide Suite 120,condo,3,1.5,1709,,1995
+22,39,1.0,19.0,836 Chavez Estate,condo,3,3.5,1840,,2021
+23,135,1.0,14.0,5991 Eric Throughway Apt. 147,apartment,0,1.0,747,,1962
+24,85,9.0,11.0,9764 Kari Crescent Suite 614,townhouse,2,2.0,1761,1.4,1960
+25,162,5.0,3.0,403 Joyce Centers Apt. 343,condo,0,1.0,616,,1995
+26,43,1.0,,4510 Burgess Extensions,condo,0,1.0,689,,2008
+27,145,3.0,3.0,8388 Jones Wall,house,4,2.0,2034,0.53,1952
+28,128,3.0,9.0,0715 Berry Station,co-op,3,3.5,2319,,1935
+29,174,2.0,12.0,1605 Laurie River Suite 516,condo,2,2.5,819,,1998
+30,78,7.0,4.0,69681 Harrell Summit,co-op,2,2.0,1668,,1949
+31,169,1.0,2.0,52181 Rebecca Keys Suite 231,townhouse,5,3.0,3020,1.41,1952
+32,91,4.0,5.0,3292 Gregory Trail,co-op,3,1.5,1636,,1958
+33,188,5.0,14.0,9979 Lin Road Suite 271,house,2,2.5,1432,,1946
+34,70,5.0,16.0,4490 Romero Inlet Suite 700,townhouse,3,3.0,1320,0.76,2014
+35,37,4.0,13.0,1199 Ford Plaza Apt. 793,apartment,2,2.5,1035,,1959
+36,68,8.0,9.0,782 Shannon Valleys Suite 182,co-op,2,2.5,984,,1920
+37,173,1.0,18.0,77889 Michael Haven,co-op,3,2.0,2357,,1926
+38,180,7.0,2.0,5905 Mark Point Suite 449,apartment,1,1.0,1213,,2009
+39,35,6.0,18.0,1925 Ponce Square,house,4,1.0,2308,,1968
+40,158,5.0,,91486 Li Skyway Apt. 685,condo,1,1.0,974,,2011
+41,93,,18.0,4235 Lee Dam,apartment,1,1.5,1004,,1980
+42,32,8.0,,41888 Ebony Wells,apartment,0,1.0,503,,1974
+43,53,,7.0,622 Marie Trail,townhouse,2,2.0,903,0.3,2022
+44,199,10.0,,706 Rhodes Freeway,co-op,1,1.0,1382,,1941
+45,34,,8.0,473 Kyle Valleys Suite 359,townhouse,3,2.0,2156,0.26,1953
+46,14,7.0,3.0,4688 Burch Viaduct Apt. 924,co-op,2,1.5,832,,1936
+47,28,4.0,2.0,758 Jennifer Path,condo,3,3.0,1791,,2017
+48,123,7.0,16.0,1247 Mariah Course,co-op,2,1.0,1738,,1923
+49,156,3.0,19.0,5060 Shaw Freeway,condo,0,1.0,760,,2000
+50,130,2.0,4.0,53051 Moody Dam Apt. 472,co-op,2,2.0,1580,,1949
+51,59,8.0,4.0,9010 Lewis Drive Suite 143,co-op,1,1.5,990,,1976
+52,96,8.0,,03697 Daniel Parks Apt. 893,apartment,3,3.5,1690,,1982
+53,143,,18.0,6095 Ashley Ferry,house,2,1.0,1684,0.78,1916
+54,185,,10.0,518 Peter Mountains,apartment,0,1.0,510,,2004
+55,169,2.0,18.0,654 Michael Cliff,apartment,0,1.0,595,,1969
+56,58,9.0,20.0,19520 Payne Via Apt. 772,apartment,0,1.0,690,,2023
+57,47,5.0,12.0,70430 Nina Island,co-op,0,1.0,611,,1921
+58,163,2.0,7.0,687 Johnson Rue Apt. 450,house,3,3.0,1343,0.19,1994
+59,95,6.0,19.0,1566 Kline Lights Suite 277,condo,3,2.0,1979,,1990
+60,41,1.0,9.0,416 Ryan View Apt. 845,co-op,0,1.0,752,,1929
+61,107,9.0,14.0,54479 Jackson Mills,condo,3,3.0,2044,,2008
+62,12,10.0,,0596 Fowler Turnpike Apt. 165,house,4,3.5,2688,1.08,1939
+63,75,1.0,14.0,29702 Joel Rue,townhouse,4,4.0,1732,,1982
+64,19,1.0,15.0,6909 Erika Land Suite 719,townhouse,3,3.0,1828,1.03,1995
+65,75,1.0,6.0,565 Wright Crescent,house,4,2.5,2479,1.43,1953
+66,112,4.0,13.0,278 Mcintyre Crest,co-op,3,2.0,2462,,1925
+67,87,3.0,,7394 Gonzalez Dale Apt. 727,co-op,0,1.0,502,,1967
+68,166,4.0,9.0,551 Vance Vista,house,6,1.5,3888,0.73,1993
+69,198,8.0,19.0,258 David Flats,townhouse,3,1.5,2283,1.33,1972
+70,18,5.0,19.0,70589 Mcdonald Plaza,condo,2,1.5,1447,,2008
+71,95,2.0,3.0,114 Key Stravenue,house,4,1.0,2339,0.93,1907
+72,190,8.0,19.0,669 David Island Apt. 778,co-op,3,3.0,1997,,1955
+73,27,6.0,3.0,89226 Marie Path Apt. 422,townhouse,4,2.5,2539,1.92,2007
+74,113,9.0,6.0,358 Singleton Glen Apt. 842,co-op,1,1.0,590,,1965
+75,199,10.0,,818 Brittany Prairie Apt. 299,apartment,2,2.5,1379,,2002
+76,174,5.0,20.0,001 Stacy Trail Suite 396,apartment,0,1.0,468,,2021
+77,168,7.0,3.0,8447 Linda Spur,townhouse,4,3.0,1466,1.84,1989
+78,172,9.0,,7102 Perry Mountain Apt. 592,apartment,3,2.0,2367,,1966
+79,47,6.0,16.0,556 Kathleen Passage Apt. 537,condo,2,2.0,837,,1999
+80,130,9.0,,7321 Kelly Lights,townhouse,3,1.5,1331,,1962
+81,42,10.0,6.0,25953 Tyrone Passage Suite 747,apartment,1,1.5,1161,,1969
+82,185,8.0,15.0,68733 Williams Haven,condo,0,1.0,510,,2023
+83,113,5.0,17.0,748 Melanie Meadows Apt. 456,townhouse,3,2.5,1683,0.43,2023
+84,155,5.0,,60983 Tran Cliffs Suite 878,co-op,3,1.5,1381,,1971
+85,32,3.0,17.0,912 Phillip Underpass Suite 852,condo,2,1.0,1935,,2013
+86,107,,8.0,868 Brandon Dam,townhouse,5,1.5,1925,1.78,1953
+87,82,6.0,5.0,8729 Mark Ridge Suite 269,condo,0,1.0,491,,1981
+88,181,10.0,,588 Erickson Hills Suite 055,house,4,4.0,3178,1.67,1997
+89,156,2.0,8.0,9409 Baker Shoal,house,2,1.5,1324,1.12,1993
+90,164,8.0,,097 Alexandria Stravenue,apartment,0,1.0,324,,2003
+91,75,10.0,19.0,30913 Scott Manor Apt. 636,condo,0,1.0,623,,1989
+92,93,,17.0,028 Ann Shore Suite 865,condo,1,1.0,1230,,2013
+93,163,6.0,1.0,8585 Bishop Fields,co-op,0,1.0,499,,1922
+94,198,6.0,12.0,8434 Bush Spurs,apartment,0,1.0,476,,1963
+95,123,3.0,,7584 Martinez Springs Suite 652,co-op,2,2.5,1158,,1964
+96,52,6.0,17.0,41574 Lewis Views Suite 842,condo,0,1.0,450,,1982
+97,49,1.0,11.0,933 Elizabeth Pines,condo,3,1.0,1568,,2021
+98,103,7.0,6.0,301 Rivera Mountains,apartment,0,1.0,709,,2005
+99,22,2.0,6.0,208 Richard Wells,condo,3,3.0,1802,,1997
+100,84,5.0,14.0,3454 Rebecca Corners Apt. 802,co-op,2,1.0,1457,,1925
+101,158,5.0,2.0,06724 Albert Port Apt. 547,townhouse,5,2.5,2989,,1995
+102,37,8.0,,87431 Martin Mount Suite 205,house,5,3.0,3038,1.37,1903
+103,155,8.0,12.0,329 Wilcox Passage Suite 161,house,3,2.0,2371,1.9,1904
+104,94,5.0,4.0,75304 Young Terrace,condo,0,1.0,593,,2013
+105,199,8.0,20.0,4990 Valdez Square Apt. 017,house,3,3.0,2072,1.15,1933
+106,19,8.0,11.0,68414 Mendez Forges Apt. 727,apartment,3,1.0,1459,,1967
+107,41,3.0,17.0,8783 Erin Ranch Apt. 878,apartment,0,1.0,581,,1988
+108,142,8.0,18.0,91088 Ashley Drive Apt. 587,townhouse,2,1.5,1211,1.01,1996
+109,135,7.0,3.0,397 Rachel Mission,townhouse,2,2.0,934,1.45,2011
+110,33,9.0,6.0,2867 Angelica Spring,townhouse,4,1.0,2615,1.38,1994
+111,133,3.0,8.0,064 Julie Prairie Apt. 065,townhouse,5,4.0,3609,,1965
+112,163,5.0,10.0,017 Justin Falls,apartment,2,2.0,961,,1975
+113,149,10.0,20.0,656 Kane Lane,co-op,0,1.0,557,,1957
+114,12,10.0,7.0,82512 Rice Stream Apt. 004,apartment,0,1.0,722,,1960
+115,128,9.0,10.0,868 Morrow Gateway Suite 524,co-op,3,3.5,2315,,1921
+116,117,,,106 John Cliff,condo,1,1.5,1374,,1999
+117,88,6.0,11.0,079 John Cape,condo,3,2.5,2041,,1993
+118,144,4.0,9.0,3830 William Highway Apt. 959,apartment,3,2.0,1317,,2015
+119,75,10.0,6.0,42836 Hill Point Apt. 687,condo,1,1.0,694,,1983
+120,132,5.0,3.0,6856 Hernandez Lane,apartment,2,1.5,1188,,2013
+121,91,,20.0,733 Mathews Divide,condo,3,1.5,1543,,2017
+122,111,5.0,13.0,86688 Paul Glens Apt. 517,condo,2,1.0,1899,,1986
+123,144,9.0,13.0,83046 Morgan Field Apt. 735,apartment,0,1.0,505,,2022
+124,160,2.0,4.0,33173 Randy Garden Suite 467,co-op,3,2.0,2176,,1972
+125,51,7.0,2.0,4587 Garcia Stravenue Suite 535,condo,2,2.0,1494,,1989
+126,156,3.0,20.0,0932 Jose Prairie Suite 423,house,3,2.0,2511,1.06,1919
+127,130,9.0,19.0,69378 Scott View Suite 772,apartment,1,1.5,952,,1993
+128,173,7.0,1.0,28728 Alexandria Villages Apt. 006,apartment,3,2.0,1084,,1992
+129,199,4.0,19.0,312 Jeffery Motorway,co-op,3,3.5,1593,,1970
+130,175,10.0,4.0,99770 Amanda Loop Apt. 084,condo,1,1.5,1086,,1989
+131,106,10.0,2.0,86211 John River Suite 546,townhouse,2,2.0,1703,0.86,1976
+132,81,8.0,11.0,6793 Kevin Views,townhouse,3,2.0,2198,0.98,1998
+133,64,5.0,10.0,016 Bennett Mountains,co-op,2,2.5,1341,,1932
+134,123,5.0,19.0,021 Bruce Rue,apartment,1,1.5,1256,,1990
+135,38,5.0,3.0,180 Jason Ways Suite 401,co-op,3,2.0,1858,,1969
+136,55,9.0,18.0,902 Smith Fords Apt. 614,apartment,3,2.0,2393,,2011
+137,13,9.0,8.0,396 Reyes Streets,apartment,1,1.0,661,,1981
+138,36,,6.0,185 Connor Fort,house,2,2.0,1646,0.25,1998
+139,194,6.0,2.0,9996 Johnson Groves,condo,3,3.5,2027,,1992
+140,45,3.0,2.0,3586 Lopez Prairie Suite 194,house,6,3.0,2751,1.71,1904
+141,10,,4.0,114 Norman Tunnel,condo,3,3.5,1431,,1998
+142,130,4.0,11.0,655 Christopher Inlet,apartment,2,2.5,1730,,1967
+143,146,4.0,13.0,4121 Ryan Point Suite 101,townhouse,5,3.5,2603,1.49,1987
+144,25,3.0,8.0,199 Shields Bridge Suite 661,condo,2,2.5,977,,2022
+145,78,10.0,,826 Dominic Hollow,house,4,1.5,2085,0.57,1942
+146,79,9.0,10.0,2126 Fisher Orchard Apt. 543,apartment,1,1.0,613,,2009
+147,40,10.0,18.0,937 Derek Avenue Suite 596,house,4,3.0,2052,1.92,1961
+148,194,2.0,17.0,5692 Flores Square Apt. 752,condo,1,1.0,1330,,2023
+149,141,4.0,5.0,4793 Bennett Viaduct Suite 519,apartment,0,1.0,769,,1957
+150,24,8.0,15.0,828 Stephanie Mountain,townhouse,4,3.0,3049,1.38,2012
+151,173,1.0,1.0,4167 Cynthia Garden,townhouse,5,3.0,3421,,2009
+152,18,8.0,,266 Shane Rapid Suite 968,townhouse,2,2.5,892,0.17,1957
+153,187,7.0,13.0,058 Daniel Gateway Suite 290,condo,1,1.0,1337,,2021
+154,170,3.0,12.0,6101 Walker Summit Apt. 756,condo,3,1.0,1819,,2023
+155,1,5.0,18.0,982 Cuevas Orchard Apt. 461,house,3,2.5,2150,1.47,1928
+156,89,4.0,4.0,254 Gibson Ford,condo,3,1.5,1520,,2009
+157,115,1.0,2.0,7177 Jones Cape Apt. 051,house,5,1.5,1614,0.25,1904
+158,194,1.0,10.0,382 Mark Meadow,condo,3,3.0,1529,,1993
+159,78,9.0,10.0,62266 Jo Flat Suite 966,townhouse,4,3.0,2482,1.65,1980
+160,143,6.0,13.0,334 Barbara Union,apartment,0,1.0,585,,2004
+161,77,9.0,8.0,5371 Lambert Overpass,co-op,2,2.5,1652,,1929
+162,144,7.0,5.0,696 Michael Vista Suite 924,apartment,1,1.5,1375,,1957
+163,166,,12.0,251 Kevin Falls,condo,1,1.0,811,,2001
+164,11,4.0,19.0,286 Carlson Ports Suite 627,house,6,1.0,2580,1.36,1977
+165,86,1.0,7.0,274 Jacob Ville,co-op,1,1.0,1040,,1975
+166,142,5.0,18.0,050 Taylor Via Suite 887,house,5,3.5,2543,0.45,1930
+167,128,8.0,11.0,767 Jackson Port Apt. 340,apartment,2,2.0,1335,,2015
+168,190,5.0,19.0,84279 Dunn Creek Apt. 485,townhouse,4,2.5,1940,,1978
+169,85,10.0,16.0,783 Garcia Village,co-op,3,1.5,1654,,1932
+170,165,8.0,12.0,0745 Scott Crest,co-op,2,2.5,1327,,1966
+171,165,9.0,,95962 Kristen Via,townhouse,3,3.0,2525,1.84,2019
+172,60,,7.0,95849 Mario Squares,house,2,2.5,813,,1980
+173,164,10.0,16.0,9481 Sydney Turnpike Suite 042,co-op,3,1.0,1814,,1959
+174,185,5.0,,25367 Barbara Grove,house,2,2.5,1889,,1967
+175,39,10.0,12.0,7116 Neal Wells Suite 775,condo,1,1.0,659,,2013
+176,118,4.0,3.0,175 Laura Locks,apartment,3,2.0,1211,,2001
+177,3,2.0,14.0,3745 Morgan Ports,house,2,2.5,1630,0.98,1981
+178,55,10.0,2.0,750 Cory Tunnel,apartment,0,1.0,758,,1979
+179,81,,5.0,12770 Harris Spurs Apt. 424,house,4,3.0,3141,0.11,2008
+180,62,7.0,18.0,541 Beck Run,condo,0,1.0,453,,2016
+181,177,9.0,12.0,64361 Aaron Neck,apartment,3,3.5,2597,,1967
+182,158,7.0,11.0,93870 Heather Viaduct,house,2,1.5,1695,0.71,1998
+183,111,10.0,3.0,2713 Davis Valley,house,4,2.5,2904,0.74,1948
+184,69,3.0,11.0,55426 Darlene Springs,co-op,2,1.0,1304,,1925
+185,114,5.0,3.0,89092 Bell Forest,apartment,0,1.0,346,,1989
+186,23,2.0,11.0,9731 Donald Crossing,townhouse,5,3.0,3388,0.85,1953
+187,200,,8.0,6523 Newman Gateway Suite 043,condo,0,1.0,449,,2004
+188,36,5.0,3.0,640 Troy Creek,co-op,1,1.5,1251,,1930
+189,65,8.0,7.0,9180 Peck Curve,townhouse,5,2.5,2680,1.58,1996
+190,102,10.0,11.0,658 Kathryn Trail Apt. 091,condo,0,1.0,369,,1980
+191,83,4.0,6.0,3006 Fuller Parkway,condo,2,1.5,1681,,1999
+192,63,5.0,13.0,6188 Joshua Inlet Apt. 832,condo,2,2.5,1396,,2016
+193,47,9.0,,9146 Brian Corners Suite 179,apartment,0,1.0,777,,2019
+194,105,3.0,8.0,2102 Frank Key,condo,1,1.5,998,,1984
+195,19,10.0,13.0,52410 Roman Groves Apt. 491,apartment,1,1.5,1282,,1998
+196,93,9.0,3.0,8507 Michael Glens Apt. 913,co-op,3,1.0,2163,,1970
+197,145,7.0,11.0,03075 Mora Fall,house,3,3.5,2396,1.31,1905
+198,57,9.0,19.0,635 Robert Stravenue,condo,0,1.0,305,,1996
+199,39,1.0,10.0,1951 Harry Unions Apt. 617,townhouse,5,2.5,3082,1.38,2014
+200,80,4.0,12.0,5187 Miguel Highway Suite 937,condo,0,1.0,359,,2002
+201,18,2.0,,738 Edward Lodge Apt. 385,condo,0,1.0,524,,2000
+202,133,3.0,14.0,0641 Alyssa Freeway,apartment,0,1.0,646,,1981
+203,48,7.0,20.0,0241 Samantha Vista Suite 571,condo,1,1.5,1366,,2020
+204,53,2.0,18.0,261 Ryan Curve,townhouse,5,2.5,3309,,1977
+205,136,6.0,20.0,4565 Chavez Fort,townhouse,4,1.5,1967,0.56,2012
+206,159,5.0,19.0,29121 Shannon Island,condo,0,1.0,478,,2009
+207,178,7.0,5.0,85374 Baker Crest Apt. 249,house,3,1.0,1691,0.28,1947
+208,163,3.0,16.0,52135 Palmer Springs,co-op,3,1.5,1916,,1951
+209,159,,1.0,2067 Cody Cove Apt. 100,apartment,1,1.5,741,,2007
+210,130,7.0,14.0,36519 Lowery Club,condo,1,1.5,749,,2015
+211,8,4.0,9.0,37215 Brad Mountain,condo,3,1.0,1392,,2016
+212,141,10.0,18.0,96670 Vega Extensions,townhouse,4,4.0,1644,1.5,2013
+213,56,2.0,8.0,24472 Christina Ridges Apt. 476,apartment,0,1.0,689,,2019
+214,23,2.0,8.0,14626 Dawn Union Apt. 806,apartment,0,1.0,530,,1994
+215,53,1.0,18.0,8759 Price Falls Apt. 593,townhouse,4,3.5,3063,0.88,1967
+216,147,9.0,4.0,0785 Terri Courts,apartment,1,1.5,881,,1987
+217,64,6.0,13.0,348 Kathryn Forges,townhouse,5,2.0,1792,0.3,1966
+218,107,2.0,3.0,2239 Drake Square Suite 905,condo,1,1.5,1141,,2020
+219,84,2.0,15.0,378 Thompson Camp,condo,2,2.5,1555,,2011
+220,110,8.0,10.0,39308 Smith Ridges,apartment,0,1.0,707,,1977
+221,175,1.0,,52500 Brenda Divide,apartment,1,1.5,1129,,1993
+222,117,,7.0,515 Willis Junction,condo,0,1.0,363,,2008
+223,65,,6.0,2267 Thompson Points Suite 392,townhouse,4,4.0,1625,0.58,1996
+224,24,1.0,3.0,4220 Rosales Trail Apt. 295,house,5,3.5,2801,0.51,1983
+225,31,7.0,16.0,917 Mark Club,townhouse,3,3.5,2113,0.07,1993
+226,95,3.0,5.0,5215 Smith Fords,house,3,1.0,1834,0.25,1940
+227,185,3.0,20.0,154 Jennifer Causeway,townhouse,2,1.0,1886,0.37,1994
+228,193,7.0,14.0,6267 Bell Lane Apt. 793,condo,1,1.0,638,,1988
+229,64,10.0,10.0,1040 Green Cove,apartment,1,1.5,803,,1960
+230,76,4.0,4.0,2621 Matthew Ridges,house,4,3.0,1720,0.42,1950
+231,82,10.0,18.0,062 Moore Courts Suite 336,townhouse,5,3.0,1840,0.07,1996
+232,11,7.0,17.0,443 Brandon Ports Suite 205,townhouse,5,1.0,1848,0.08,1977
+233,164,10.0,3.0,1497 Collin Ford,condo,3,2.5,2487,,1985
+234,138,10.0,3.0,417 Kyle Locks,apartment,0,1.0,561,,1969
+235,63,,15.0,4186 Nathan Light Suite 270,apartment,3,1.5,2544,,1957
+236,4,1.0,12.0,7434 Edward Square Apt. 158,co-op,0,1.0,458,,1927
+237,192,5.0,4.0,380 Cardenas Manor Suite 937,co-op,2,2.0,1141,,1928
+238,148,8.0,12.0,60898 David Throughway Suite 223,house,4,2.5,2952,0.17,1991
+239,173,4.0,1.0,06163 Mary Green,house,5,2.0,2233,1.56,1973
+240,46,1.0,14.0,116 Arnold Walks Suite 870,house,2,1.0,1300,0.8,1919
+241,147,9.0,2.0,62299 Sara Port Apt. 485,townhouse,4,2.5,1808,0.67,1959
+242,73,5.0,18.0,6799 Johnson Harbor Suite 299,townhouse,3,1.0,2106,0.18,2009
+243,145,10.0,12.0,65307 Prince Brooks Suite 444,condo,0,1.0,488,,1998
+244,140,4.0,14.0,132 Mccann Mills Suite 469,co-op,3,3.5,1450,,1977
+245,86,,10.0,73678 Nicholson Passage,house,3,2.0,2159,1.4,1901
+246,183,1.0,17.0,48628 Glenn Wells,house,3,1.5,2135,1.92,1918
+247,25,7.0,,30705 Joshua View,condo,2,1.0,1738,,2017
+248,75,6.0,13.0,610 Nathan Ranch Suite 279,co-op,0,1.0,522,,1935
+249,20,3.0,19.0,2414 Paul Estates Apt. 333,apartment,2,2.0,1727,,1979
+250,138,4.0,15.0,680 Thomas Curve Apt. 903,house,3,1.5,1266,0.66,1915
+251,181,1.0,11.0,446 York Mount Suite 374,apartment,0,1.0,346,,1988
+252,67,3.0,,108 Hoffman Ranch Suite 417,townhouse,2,2.0,1308,0.15,1988
+253,64,,5.0,4544 Lopez Path,condo,3,3.5,2188,,2015
+254,103,2.0,9.0,96520 Bright Green,house,2,1.5,926,,2005
+255,24,6.0,15.0,6099 Matthew Station Apt. 875,house,2,1.5,932,0.91,1916
+256,98,3.0,6.0,82417 Joyce Stream Apt. 513,house,3,2.5,2225,0.82,1903
+257,158,4.0,16.0,46554 Ford Crest Suite 099,apartment,2,1.5,1713,,1954
+258,99,4.0,17.0,3816 Gutierrez Ways,condo,3,1.0,1174,,1997
+259,145,7.0,1.0,35697 Leslie Stravenue,townhouse,2,2.0,1583,1.57,1994
+260,121,10.0,6.0,75250 Shannon Fords,apartment,1,1.5,580,,1957
+261,15,4.0,13.0,271 Christina Roads,house,3,1.5,2395,1.64,1994
+262,189,10.0,,6760 Amanda Street Suite 058,apartment,1,1.0,730,,1990
+263,139,8.0,,03354 Curtis Parkway,apartment,1,1.0,1126,,2013
+264,1,10.0,5.0,10447 Hamilton Spur Apt. 575,house,3,1.5,2282,,1961
+265,6,3.0,17.0,60332 Jessica Radial,apartment,1,1.5,1371,,1957
+266,87,3.0,14.0,50648 Brittney Causeway,apartment,0,1.0,491,,1962
+267,171,3.0,10.0,001 Wallace Crossing,condo,2,2.0,1156,,1994
+268,198,1.0,11.0,2304 Stanley Shore Suite 992,townhouse,3,1.0,2542,1.9,2000
+269,128,2.0,11.0,89141 Tyler Rest Apt. 483,co-op,1,1.0,1204,,1979
+270,64,6.0,4.0,642 Amy Fords Suite 530,townhouse,2,2.5,1487,,1976
+271,127,6.0,4.0,119 Hernandez Course,house,2,2.5,1590,1.94,1952
+272,9,6.0,4.0,143 Hinton Hill,condo,1,1.5,716,,1984
+273,87,10.0,1.0,0120 Ward Springs Suite 611,house,4,2.5,1648,0.2,1911
+274,14,4.0,14.0,22557 Johns Course,condo,1,1.5,1171,,1990
+275,25,,16.0,2166 Nelson Lights Suite 621,co-op,2,2.0,1376,,1935
+276,52,,10.0,021 Pruitt Orchard,townhouse,2,1.0,1538,0.62,2011
+277,68,,6.0,96590 Timothy Oval Apt. 670,house,5,2.0,2023,0.97,1984
+278,12,8.0,9.0,5089 Tiffany Skyway,apartment,3,1.5,1806,,2007
+279,172,9.0,19.0,891 Stanley Gateway Suite 562,co-op,0,1.0,377,,1925
+280,147,8.0,13.0,28772 Karen Islands,townhouse,2,2.5,1592,1.39,2010
+281,38,8.0,6.0,4083 Powell Freeway,house,6,3.0,4139,1.37,1979
+282,52,3.0,9.0,7971 West Crest,townhouse,3,1.0,1308,1.98,2005
+283,102,5.0,1.0,016 Johnson Plaza Apt. 199,apartment,0,1.0,344,,2021
+284,38,10.0,4.0,837 Cox Center Apt. 758,co-op,3,2.5,1280,,1929
+285,106,8.0,16.0,571 Katherine Forges Apt. 554,house,6,4.0,2213,1.09,1944
+286,175,1.0,11.0,102 Taylor Stravenue Suite 149,house,3,2.5,1614,,1977
+287,80,8.0,4.0,16373 Rodriguez Mall,townhouse,2,2.0,1773,0.09,1988
+288,187,2.0,7.0,917 Barrett Parkways,townhouse,3,3.5,1665,1.66,1984
+289,132,2.0,17.0,0808 Roberson Orchard,condo,3,2.0,2107,,1983
+290,50,4.0,8.0,922 Paul Rapid,condo,1,1.0,1349,,1991
+291,119,2.0,8.0,669 Joshua Junctions Suite 722,house,5,2.0,1757,0.58,2005
+292,122,6.0,9.0,848 Joseph Plaza Apt. 339,apartment,3,2.5,2266,,1972
+293,147,4.0,8.0,522 Page Trace Suite 879,house,4,2.5,1356,,2009
+294,122,3.0,1.0,846 Alexandra Burg Suite 200,townhouse,4,2.5,2634,1.74,1951
+295,109,6.0,7.0,2442 Hannah Hill,townhouse,4,4.0,2545,1.44,1985
+296,27,,12.0,057 Christina Spring,condo,2,2.5,1866,,2017
+297,17,5.0,9.0,863 Schwartz Causeway,co-op,2,1.0,1411,,1950
+298,196,1.0,20.0,6580 Julia Flats Suite 359,apartment,2,1.5,1185,,2016
+299,128,5.0,13.0,347 Tonya Club,condo,2,1.0,1086,,2021
+300,186,9.0,16.0,81606 Hawkins Curve,condo,0,1.0,598,,2001
+301,25,5.0,18.0,405 Mckinney Drives,apartment,2,1.5,1148,,1987
+302,108,6.0,19.0,59094 Tyler Plaza,townhouse,4,1.0,2640,0.49,1989
+303,163,10.0,,58328 Kristie Estate Suite 886,apartment,3,2.5,1291,,1956
+304,36,6.0,19.0,3355 Carter Terrace,townhouse,2,2.0,1581,1.75,1969
+305,125,3.0,2.0,015 Allen Row Apt. 056,condo,1,1.0,873,,1985
+306,41,2.0,14.0,4840 Robertson Pass,house,5,1.5,2670,0.38,1997
+307,2,,12.0,0435 Stacy Expressway Apt. 133,condo,3,2.5,1928,,2004
+308,161,4.0,12.0,38612 Stephen Isle Apt. 110,house,4,4.0,2850,0.08,1900
+309,151,2.0,10.0,8193 Russell Mission,apartment,1,1.5,655,,2014
+310,87,3.0,16.0,5061 Darlene River Apt. 901,apartment,3,3.0,2540,,2017
+311,59,3.0,1.0,144 Juan Mill Suite 607,apartment,1,1.5,718,,1952
+312,167,7.0,9.0,326 Choi Divide,co-op,1,1.5,676,,1965
+313,28,1.0,,508 David Avenue Suite 881,co-op,0,1.0,604,,1962
+314,122,4.0,1.0,53682 Jack Ridges Suite 312,house,5,2.5,3369,,1932
+315,70,3.0,4.0,781 Powers Glen,apartment,3,1.0,2405,,2016
+316,28,10.0,9.0,97552 Craig River,co-op,0,1.0,444,,1970
+317,42,,7.0,57759 Steele Drives,co-op,1,1.5,916,,1938
+318,172,,19.0,6205 Kristen Station Suite 452,condo,2,1.0,1280,,1980
+319,66,8.0,10.0,7754 Arnold Extensions Apt. 428,condo,1,1.0,642,,1986
+320,11,6.0,11.0,1108 Lisa Prairie,apartment,3,1.0,1152,,1972
+321,36,3.0,15.0,308 Stephens Plains Suite 256,condo,0,1.0,348,,1980
+322,88,7.0,15.0,427 Randy Parkway,co-op,2,2.0,990,,1972
+323,167,3.0,2.0,392 Sean Fall,apartment,3,2.5,2462,,2003
+324,157,6.0,5.0,750 Kathleen Fort,townhouse,2,2.5,1652,1.37,1973
+325,12,,1.0,5303 Hughes Motorway,condo,3,2.5,1281,,2008
+326,134,10.0,,51844 Nicholas Lane,co-op,1,1.5,1235,,1953
+327,157,,6.0,184 Kaufman Fork Suite 557,townhouse,5,3.5,2966,0.8,2021
+328,193,4.0,9.0,082 Martin Club Suite 322,co-op,3,1.5,2065,,1924
+329,21,10.0,16.0,9136 Cortez Orchard,house,6,3.0,2712,0.84,1930
+330,5,7.0,,3926 John Crossroad Apt. 280,condo,2,2.5,1043,,2021
+331,155,5.0,18.0,24286 Natalie Stream,co-op,0,1.0,722,,1970
+332,85,10.0,12.0,37977 Jeffrey Loop Apt. 929,townhouse,5,2.0,2946,1.64,2008
+333,88,5.0,12.0,57991 Nicholas Curve Apt. 038,condo,0,1.0,349,,1980
+334,191,2.0,7.0,91279 Natalie Place Apt. 172,house,2,2.5,1136,,1991
+335,28,1.0,19.0,686 Golden Square,townhouse,2,1.5,1604,1.57,1993
+336,2,1.0,14.0,76599 Ronald Glens Suite 314,house,5,3.5,3423,1.03,1963
+337,149,3.0,20.0,3009 April Lane Apt. 565,co-op,3,1.5,2091,,1964
+338,156,4.0,11.0,69448 Cunningham Ridge,co-op,2,2.5,1832,,1946
+339,155,9.0,18.0,636 White Points Suite 449,apartment,3,1.5,1323,,2002
+340,176,3.0,6.0,621 Sean Squares Apt. 138,apartment,1,1.0,755,,1987
+341,123,7.0,18.0,8902 Oconnell Avenue Apt. 279,co-op,2,2.0,1036,,1955
+342,7,1.0,7.0,14351 Jenny Locks Suite 902,apartment,3,3.0,1076,,1963
+343,16,5.0,18.0,0384 Arthur Rapid Apt. 920,apartment,1,1.5,843,,1968
+344,190,4.0,18.0,02146 Caldwell Lodge Apt. 801,house,4,2.5,2967,,1986
+345,13,7.0,11.0,489 Bailey Via,condo,1,1.5,1073,,2022
+346,159,8.0,12.0,93769 Jose Lodge Apt. 818,co-op,0,1.0,306,,1932
+347,115,2.0,6.0,1848 Benson Lane Suite 357,co-op,1,1.0,1344,,1938
+348,72,3.0,9.0,071 Jones Roads Apt. 356,co-op,0,1.0,493,,1947
+349,153,,20.0,804 Justin Locks Suite 182,house,4,3.5,2255,0.13,1941
+350,19,6.0,6.0,5394 Stacey Springs Apt. 733,apartment,3,3.0,2222,,1995
+351,140,2.0,7.0,3333 Moore Coves,co-op,0,1.0,702,,1946
+352,193,8.0,1.0,79080 Watson Island,apartment,2,2.0,1538,,1977
+353,63,6.0,4.0,472 Sanders Terrace Apt. 086,house,4,1.5,2212,1.25,1979
+354,133,6.0,17.0,085 Dalton Trail Apt. 718,condo,2,2.0,1906,,1981
+355,50,2.0,6.0,0036 Mark Ridge Suite 284,condo,3,2.0,1139,,2021
+356,172,4.0,14.0,7955 Victor Fords,co-op,0,1.0,620,,1933
+357,166,2.0,5.0,556 Hayes Ports Apt. 931,house,3,3.5,2151,1.5,1955
+358,46,9.0,,86632 Thomas Branch Apt. 672,house,5,1.0,2908,,1906
+359,5,2.0,20.0,4489 Raymond Spurs Apt. 034,townhouse,4,2.5,2134,0.84,1990
+360,28,5.0,10.0,175 Ward Points Suite 506,house,6,3.5,1986,0.75,1964
+361,122,4.0,13.0,9399 Tiffany Haven,condo,3,3.5,1859,,1981
+362,187,1.0,18.0,8771 Austin Mountain Apt. 256,co-op,2,2.0,1095,,1963
+363,22,6.0,17.0,12535 Delgado Station Suite 964,townhouse,2,1.0,885,0.82,2020
+364,47,10.0,18.0,9876 Ivan Brooks Apt. 341,townhouse,3,1.5,1426,0.54,1964
+365,26,10.0,11.0,61117 Anthony Locks,condo,0,1.0,448,,1996
+366,73,4.0,15.0,49216 Perez Street,apartment,1,1.0,1237,,1962
+367,146,6.0,6.0,2282 Austin Knolls Suite 778,apartment,2,1.5,1996,,2022
+368,71,3.0,11.0,728 Brittany Motorway Suite 884,house,4,4.0,1804,1.49,1955
+369,125,3.0,3.0,8317 Diaz Green Apt. 400,condo,3,2.0,1962,,1999
+370,188,2.0,1.0,4780 Arroyo Neck,apartment,1,1.0,1101,,1983
+371,152,1.0,18.0,64930 Lopez Points Suite 632,co-op,0,1.0,716,,1969
+372,101,10.0,10.0,3416 Zachary Union Suite 484,co-op,3,1.5,2389,,1943
+373,129,,20.0,12241 Williamson Groves Suite 350,townhouse,5,3.0,3602,,1996
+374,189,6.0,,80214 Martinez Mill,townhouse,3,1.5,1963,1.9,1968
+375,60,,12.0,12073 Fisher Turnpike,condo,1,1.5,614,,2003
+376,167,9.0,9.0,7051 Brian Trail Suite 187,condo,3,1.0,1981,,1982
+377,151,2.0,13.0,46013 Wise Mills,apartment,1,1.5,935,,1996
+378,155,,15.0,037 Adriana Fords,townhouse,5,4.0,2995,1.0,2011
+379,41,2.0,14.0,4520 Jon Route Suite 350,townhouse,3,3.0,1207,0.46,1973
+380,54,7.0,,36502 Richards Locks,apartment,0,1.0,546,,2011
+381,147,3.0,6.0,09792 Townsend Gateway,house,3,3.0,2224,1.28,1905
+382,5,5.0,7.0,1950 Michael Drives,co-op,3,3.0,2277,,1960
+383,106,10.0,6.0,73585 Quinn Brooks,condo,3,1.5,2036,,1994
+384,117,2.0,13.0,2407 Hansen Plains Suite 392,co-op,2,2.0,1143,,1979
+385,39,3.0,20.0,7498 Casey Drives Suite 448,townhouse,2,1.5,833,1.82,2003
+386,124,10.0,1.0,0862 Christine Lakes Apt. 518,co-op,0,1.0,749,,1925
+387,110,8.0,13.0,87829 Morris Row Suite 118,condo,3,1.0,1808,,2013
+388,123,2.0,18.0,22031 Lee Bypass,apartment,0,1.0,517,,1982
+389,148,9.0,,789 Williams Forges Apt. 037,condo,2,1.0,1187,,1980
+390,167,5.0,14.0,0586 Bauer Centers,townhouse,4,2.0,2137,,2004
+391,53,9.0,12.0,014 Shirley Path Apt. 138,co-op,2,2.5,1364,,1968
+392,89,7.0,4.0,38392 Reese Trafficway Suite 761,co-op,3,2.0,1569,,1956
+393,141,1.0,1.0,86852 Mahoney Island,townhouse,5,1.0,2212,0.83,1993
+394,95,,,6659 Anna Forest Suite 845,house,3,3.0,2015,0.17,1928
+395,74,10.0,,6004 Zachary Hollow Apt. 433,condo,3,3.5,2307,,2013
+396,74,10.0,8.0,48889 Clinton Mount Suite 224,townhouse,5,1.0,3348,1.33,2016
+397,62,3.0,,334 Davis Locks Apt. 157,co-op,1,1.0,1240,,1943
+398,104,9.0,,9194 Jessica Ports,apartment,3,3.5,1773,,2000
+399,90,5.0,7.0,05566 Molly Forks Apt. 604,house,2,2.0,1925,1.14,1974
+400,45,2.0,17.0,8925 Eric Spring,condo,3,1.0,2227,,1996

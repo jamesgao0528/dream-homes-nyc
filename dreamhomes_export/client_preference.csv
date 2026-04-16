@@ -1,0 +1,51 @@
+preference_id,client_id,preferred_property_type,preferred_state,preferred_city,preferred_neighborhood_id,preferred_zip,min_bedrooms,min_bathrooms,budget_min,budget_max
+1,1,apartment,NJ,Lake Sean,,95635,1,2.0,522330.64,1150126.56
+2,2,house,NY,Port Daniel,,31363,3,2.0,574810.26,1447642.24
+3,3,townhouse,NY,Vanceland,,79706,3,1.0,395442.8,1202180.23
+4,4,condo,CT,East Sarah,,72652,3,1.5,339086.35,978872.42
+5,5,co-op,CT,Cortezstad,,43520,2,2.0,331801.8,701470.23
+6,6,house,NJ,West Derekmouth,,76253,1,1.5,330033.33,627498.62
+7,7,townhouse,CT,Cassandraburgh,,98316,1,1.5,102587.95,764115.97
+8,8,apartment,CT,Atkinsborough,,97740,2,1.0,267313.33,727594.64
+9,9,house,NJ,Fitzgeraldbury,,35693,1,1.0,678259.03,1100357.03
+10,10,townhouse,NJ,New Rachel,,60078,2,1.0,488284.12,1156485.24
+11,11,apartment,NY,South Amandafort,,17731,1,1.0,738896.14,1016938.63
+12,12,apartment,CT,Lake Jessicaborough,,25431,1,1.5,221902.63,1084683.4
+13,13,townhouse,NY,South Elizabethburgh,,79907,1,1.5,272174.98,1191759.04
+14,14,townhouse,NJ,Ingramfurt,,25701,3,1.0,114695.63,519240.58
+15,15,condo,NY,Barrymouth,,80464,2,1.5,247166.17,941984.01
+16,16,co-op,NJ,Port Gail,,95085,3,1.0,758813.23,965457.22
+17,17,townhouse,NY,North Patrickmouth,,90552,1,2.0,717906.19,1158282.17
+18,18,co-op,NJ,New Jennaborough,,25381,3,1.0,361978.71,1290890.94
+19,19,co-op,NY,Mclaughlinshire,,33554,3,1.5,634157.66,1444786.67
+20,20,house,CT,Ramirezland,,55778,2,1.0,329376.42,1195728.79
+21,21,condo,NY,South Jenniferside,,47951,3,1.0,777869.02,1584067.72
+22,22,co-op,NY,South Christopher,,62411,1,2.0,653698.05,1103002.31
+23,23,co-op,NJ,West Daniel,,27238,2,2.0,717695.46,1235536.01
+24,24,apartment,CT,West Robertside,,27567,3,1.5,325276.19,1069361.08
+25,25,apartment,CT,West Jaimetown,,38569,2,2.0,446354.42,1375421.12
+26,26,house,NY,Dianamouth,,79887,1,1.0,508787.84,1015659.9
+27,27,townhouse,NJ,Torresberg,,42437,2,1.5,264069.21,878302.56
+28,28,apartment,NJ,Taraton,,25472,3,1.0,754849.23,975746.51
+29,29,condo,CT,Lake Amanda,,22223,2,1.0,158819.7,784385.7
+30,30,co-op,NJ,North Victoriashire,,27452,2,1.5,425677.18,946473.07
+31,31,condo,NJ,New Jasmine,,55257,2,1.5,386266.94,508513.32
+32,32,apartment,CT,New Kevin,,06727,1,1.5,409181.95,1320510.21
+33,33,co-op,CT,Ericside,,85474,3,2.0,306162.47,476505.58
+34,34,townhouse,NY,Port Annette,,75170,1,1.0,293497.47,717710.67
+35,35,apartment,NY,Lake Andrea,,40693,3,1.5,482218.24,807239.52
+36,36,apartment,NY,Howardmouth,,09398,3,2.0,621647.94,1619844.07
+37,37,co-op,NJ,Port Shari,,43018,1,1.5,798883.57,1152544.31
+38,38,condo,NJ,Rhodesland,,86375,3,2.0,342642.65,453344.3
+39,39,townhouse,NJ,Lake Michaelberg,,65650,1,1.0,557863.72,1308866.02
+40,40,townhouse,CT,Michaelport,,78137,3,2.0,246912.51,1028771.68
+41,41,condo,NJ,Laraport,,26629,1,1.5,605757.25,1466978.75
+42,42,condo,NY,East Jaredfort,,85196,2,1.5,400155.08,1267804.79
+43,43,townhouse,CT,North Robertview,,62879,1,1.5,121072.85,1070091.45
+44,44,apartment,NJ,East Jacob,,64870,1,1.5,106776.81,589924.22
+45,45,co-op,NJ,Maryport,,78730,2,2.0,626838.33,747754.19
+46,46,townhouse,NY,East Josefort,,14627,2,2.0,649750.47,1316605.85
+47,47,co-op,CT,North David,,47195,2,1.5,522101.95,805886.11
+48,48,co-op,NJ,Cunninghamview,,71589,1,1.5,373445.3,571219.82
+49,49,condo,CT,Port Jordanshire,,02572,2,1.0,498660.51,752941.8
+50,50,townhouse,NY,Frankview,,56504,3,2.0,572419.88,1112171.87
