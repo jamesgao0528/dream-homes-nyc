@@ -1,24 +1,39 @@
 -- Dream Homes NYC Relational Schema DDL
--- 21 Tables in 3NF, PostgreSQL compatible, and FK-safe load order
--- All data populated via Python Faker (synthetic)
+-- 22 Tables in 3NF, PostgreSQL compatible, and FK-safe load order
 
 
--- GROUP 1: CORPORATE / HR
+-- GROUP 1: REFERENCE & CORPORATE / HR
+
+
+-- Shared address reference for geographic location data
+-- Used by office, property, school_district, and neighborhood
+-- to avoid repeating city, state, and zip across multiple tables
+
+CREATE TABLE address (
+    address_id SERIAL,
+    city       VARCHAR(100) NOT NULL,
+    state_code CHAR(2)      NOT NULL,
+    zip        CHAR(5)      NOT NULL,
+    PRIMARY KEY (address_id),
+    CHECK (state_code IN ('NY', 'NJ', 'CT'))
+);
+
+
 
 -- One record per Dream Homes NYC office location across NY, NJ, and CT
--- state_code is enforced as a CHECK constraint 
+-- street_address stores the building-level address unique to each office
+-- city, state, and zip are stored in the shared address table
 
 CREATE TABLE office (
-    office_id SERIAL,
-    office_name VARCHAR(100) NOT NULL,
-    address VARCHAR(200) NOT NULL,
-    city VARCHAR(100) NOT NULL,
-    state_code CHAR(2) NOT NULL,
-    zip CHAR(5) NOT NULL,
-    phone VARCHAR(20),
-    email VARCHAR(150),
+    office_id      SERIAL,
+    office_name    VARCHAR(100) NOT NULL,
+    street_address VARCHAR(200) NOT NULL,
+    address_id     INT NOT NULL,
+    phone          VARCHAR(20),
+    email          VARCHAR(150),
     PRIMARY KEY (office_id),
-    CHECK (state_code IN ('NY', 'NJ', 'CT'))
+    FOREIGN KEY (address_id) REFERENCES address(address_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
 
@@ -87,40 +102,37 @@ CREATE TABLE office_financials (
 -- GROUP 2: GEOGRAPHIC / REFERENCE
 
 
--- School district reference data linked to properties by zip code at ETL time
--- district_name, city, state_code, and zip describe the district's administrative location
--- A district can span multiple zip codes in practice, so district_id does not
--- functionally determine a single zip or city (no transitive dependency)
--- enrollment and student_teacher_ratio are nullable since not all districts
--- will have complete data
+-- School district reference data linked to properties at ETL time
+-- enrollment and student_teacher_ratio are nullable since 
+-- not all districts will have complete data
+-- city, state, and zip are stored in the shared address table
 
 CREATE TABLE school_district (
-    district_id SERIAL,
-    district_name VARCHAR(200) NOT NULL,
-    city VARCHAR(100) NOT NULL,
-    state_code CHAR(2) NOT NULL,
-    zip CHAR(5) NOT NULL,
-    enrollment INT,
+    district_id           SERIAL,
+    district_name         VARCHAR(200) NOT NULL,
+    address_id            INT NOT NULL,
+    enrollment            INT,
     student_teacher_ratio DECIMAL(5,2),
     PRIMARY KEY (district_id),
-    CHECK (state_code IN ('NY', 'NJ', 'CT')),
+    FOREIGN KEY (address_id) REFERENCES address(address_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
     CHECK (enrollment IS NULL OR enrollment >= 0),
     CHECK (student_teacher_ratio IS NULL OR student_teacher_ratio > 0)
 );
 
 
--- Neighborhood reference data used for geographic grouping and filtering
--- Storing neighborhoods as a proper table ensure consistent grouping 
--- without spelling variations
+-- Neighborhood reference data for geographic grouping and filtering
+-- city, state, and zip are stored in the shared address table
+-- To get the city, state, or zip for a neighborhood, 
+-- join to the address table with neighborhood.address_id
 
 CREATE TABLE neighborhood (
-    neighborhood_id SERIAL,
+    neighborhood_id   SERIAL,
     neighborhood_name VARCHAR(100) NOT NULL,
-    city VARCHAR(100) NOT NULL,
-    state_code CHAR(2) NOT NULL,
-    zip CHAR(5) NOT NULL,
+    address_id        INT          NOT NULL,
     PRIMARY KEY (neighborhood_id),
-    CHECK (state_code IN ('NY', 'NJ', 'CT'))
+    FOREIGN KEY (address_id) REFERENCES address(address_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
 
@@ -142,24 +154,19 @@ CREATE TABLE amenity (
 
 
 -- One record per physical property in the Dream Homes NYC portfolio
--- city, state_code, and zip reflect the property's actual mailing address
--- neighborhood_id is a separate logical grouping used for market search and filtering
--- These are intentionally independent: a neighborhood can span multiple zip codes,
--- and a zip code can contain parts of multiple neighborhoods
--- Storing both does not create a transitive dependency because neighborhood_id does not 
--- determine city, state, or zip in the real world
--- district_id and neighborhood_id are both nullable,
--- not every property will match a district or neighborhood in the synthetic dataset
+-- street_address is the building-level mailing address 
+-- district_id and neighborhood_id are both nullable
+-- neighborhood_id is a logical grouping for search and filtering
+-- A neighborhood can span multiple zip codes, so neighborhood_id does not
+-- functionally determine the address, no transitive dependency exists
 -- year_built uses SMALLINT as PostgreSQL has no dedicated YEAR type
 
 CREATE TABLE property (
     property_id SERIAL,
+    address_id INT NOT NULL,
     district_id INT,
     neighborhood_id INT,
-    address VARCHAR(200) NOT NULL,
-    city VARCHAR(100) NOT NULL,
-    state_code CHAR(2) NOT NULL,
-    zip CHAR(5) NOT NULL,
+    street_address VARCHAR(200) NOT NULL,
     property_type VARCHAR(20) NOT NULL,
     bedrooms INT,
     bathrooms DECIMAL(3,1),
@@ -167,11 +174,12 @@ CREATE TABLE property (
     lot_size_acres DECIMAL(8,2),
     year_built SMALLINT,
     PRIMARY KEY (property_id),
+    FOREIGN KEY (address_id) REFERENCES address(address_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
     FOREIGN KEY (district_id) REFERENCES school_district(district_id)
         ON UPDATE CASCADE ON DELETE SET NULL,
     FOREIGN KEY (neighborhood_id) REFERENCES neighborhood(neighborhood_id)
         ON UPDATE CASCADE ON DELETE SET NULL,
-    CHECK (state_code IN ('NY', 'NJ', 'CT')),
     CHECK (property_type IN ('house', 'townhouse', 'apartment', 'condo', 'co-op')),
     CHECK (year_built BETWEEN 1800 AND 2030),
     CHECK (bedrooms >= 0),
@@ -248,8 +256,8 @@ CREATE TABLE listing_price_history (
 -- Monthly market statistics by zip code, sourced from external data
 -- No FK on zip intentionally as external zip codes may not match internal ones exactly
 -- Joined to internal data analytically by zip value when needed
--- period_month is stored as the first day of each month (e.g. 2024-01-01 = January 2024)
--- UNIQUE on (zip, period_month) prevents duplicate records per zip per month
+-- period_month is stored as the first day of each month (e.g. 2024-01-01 would be January 2024)
+-- UNIQUE on zip, period_month prevents duplicate records per zip per month
 
 CREATE TABLE zip_market_trend (
     trend_id SERIAL,
@@ -292,12 +300,11 @@ CREATE TABLE client (
 -- Stores each client's property search preferences
 -- Kept separate from client to avoid empty columns for clients with no preferences
 -- UNIQUE on client_id enforces a one-to-one relationship with client
--- Geographic preference fields are intentionally independent:
--- preferred_neighborhood_id is used for specific neighborhood targeting
--- preferred_city, preferred_state, and preferred_zip are used for broad
--- geographic preferences when no specific neighborhood is selected
--- ETL enforces that when preferred_neighborhood_id is set, preferred_city,
--- preferred_state, and preferred_zip are left NULL to avoid contradictions
+-- preferred_neighborhood_id references the neighborhood table for specific area targeting
+-- preferred_city, preferred_state, and preferred_zip are approximate search criteria
+-- and intentionally do NOT reference the address table since they represent
+-- client preferences, not exact locations
+-- CHECK constraint prevents both from being set at the same time
 
 CREATE TABLE client_preference (
     preference_id SERIAL,
@@ -452,22 +459,19 @@ CREATE TABLE lease_transaction (
 
 
 -- One commission record per completed transaction
--- commission_amount is calculated at transaction time:
--- sale: ROUND(sale_price * agent.commission_rate, 2)
--- lease: ROUND(monthly_rent * 12 * agent.commission_rate, 2)
+-- commission_amount is not stored here as it can be derived when needed:
+--   sale:  ROUND(st.sale_price * a.commission_rate, 2)
+--   lease: ROUND(lt.monthly_rent * 12 * a.commission_rate, 2)
 -- paid_date records when payment was made, NULL means unpaid
--- Use paid_date IS NOT NULL to check payment status
 
 CREATE TABLE commission (
-    commission_id SERIAL,
-    transaction_id INT NOT NULL,
-    commission_amount DECIMAL(12,2) NOT NULL,
-    paid_date DATE,
+    commission_id  SERIAL,
+    transaction_id INT  NOT NULL,
+    paid_date      DATE,
     PRIMARY KEY (commission_id),
     UNIQUE (transaction_id),
     FOREIGN KEY (transaction_id) REFERENCES property_transaction(transaction_id)
-        ON UPDATE CASCADE ON DELETE RESTRICT,
-    CHECK (commission_amount >= 0)
+        ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
 
@@ -514,7 +518,6 @@ EXECUTE FUNCTION update_listing_status();
 
 
 -- TRIGGER 2: Enforce subtype existence 
--- every property_transaction must have exactly one subtype row before the transaction commits
 -- Uses DEFERRABLE INITIALLY DEFERRED so the check runs at commit time, 
 -- after the subtype row has been inserted.
 
@@ -543,7 +546,6 @@ EXECUTE FUNCTION enforce_subtype_exists();
 
 
 -- TRIGGER 3: Enforce mutually exclusive subtypes 
--- a property_transaction cannot have both a sale_transaction and a lease_transaction row
 
 CREATE OR REPLACE FUNCTION enforce_subtype_disjoint()
 RETURNS TRIGGER AS $$
