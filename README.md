@@ -7,9 +7,11 @@ A 22-table PostgreSQL relational database for a fictional real estate agency ope
 
 ## Setup
 
+## Setup
+
 **Install dependencies:**
 ```bash
-pip install -r requirements.txt
+pip install sqlalchemy psycopg2-binary pandas
 ```
 
 **Connection string** (adjust to your local Docker setup):
