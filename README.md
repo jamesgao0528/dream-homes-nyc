@@ -6,9 +6,6 @@ Nam Ha · Weijia Gao · Yuboyi Dong · Jicheng Ge · Haozhe Zhang
 A 22-table PostgreSQL relational database for a fictional real estate agency operating across NY, NJ, and CT. Includes synthetic data generation, a dependency-ordered ETL pipeline, 12 analytical SQL queries, and Metabase dashboards.
 
 ## Setup
-
-## Setup
-
 **Install dependencies:**
 ```bash
 pip install sqlalchemy psycopg2-binary pandas
